@@ -6,7 +6,7 @@
   "environment_variables": [],
   "materials": [
     {
-      "url": "https://github.com/tomzo/gocd-json-config-example.git",
+      "url": "https://github.com/saivenkat288/gocd-json",
       "type": "git"
     }
   ],
@@ -18,7 +18,9 @@
           "name": "build",
           "tasks": [
             {
-              "type": "rake"
+              "type": "exec",
+              "command":"ls"
+              
             }
           ]
         }
